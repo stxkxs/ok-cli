@@ -1,0 +1,16 @@
+---
+codebuild:
+  region: us-west-2
+  batchSize: 10
+  prefix: [""]
+  retry: 5
+
+cloudformation:
+  region: us-west-2
+  prefix: ["xxxxx"]
+  retry: 2
+
+cloudwatch:
+  region: us-west-2
+  batchSize: 10
+  retry: 2

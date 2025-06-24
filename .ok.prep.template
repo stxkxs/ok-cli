@@ -1,0 +1,149 @@
+---
+account: 000000000000
+environment: prototype
+version: v1
+organization: stxkxs
+name: xxxxx
+alias: alt
+domain: stxkxs.io
+private:
+  region: us-west-2
+  images:
+    - name: "stxkxs.io/v1/amazonlinux/ok"
+      version: v1
+      scanOnPush: true
+      mutability: mutable
+      dockerfile: Dockerfile.amazonlinux
+      context: .
+      tags:
+        "stxkxs.io:account": 000000000000
+        "stxkxs.io:region": us-west-2
+        "stxkxs.io:environment": prototype
+        "stxkxs.io:version": v1
+        "stxkxs.io:resource-type": ecr
+        "stxkxs.io:category": docker
+        "stxkxs.io:type": amazonlinux/ok
+        "stxkxs.io:organization": stxkxs
+        "stxkxs.io:name": kernel
+        "stxkxs.io:alias": alt
+        "stxkxs.io:part-of": "stxkxs.io/v1/ecr/docker/amazonlinux/ok"
+    - name: "stxkxs.io/v1/alpine/ok"
+      version: v1
+      scanOnPush: true
+      mutability: mutable
+      dockerfile: Dockerfile.alpine
+      context: .
+      tags:
+        "stxkxs.io:account": 000000000000
+        "stxkxs.io:region": us-west-2
+        "stxkxs.io:environment": prototype
+        "stxkxs.io:version": v1
+        "stxkxs.io:resource-type": ecr
+        "stxkxs.io:category": docker
+        "stxkxs.io:type": alpine/ok
+        "stxkxs.io:organization": stxkxs
+        "stxkxs.io:name": kernel
+        "stxkxs.io:alias": alt
+        "stxkxs.io:part-of": "stxkxs.io/v1/ecr/docker/alpine/ok"
+  charts:
+    - name: "stxkxs.io/v1/helm/druid"
+      version: 0.1.0
+      scanOnPush: true
+      mutability: mutable
+      chart: $HOME/aws-eks-druid-infra/helm/chart/druid
+      tags:
+        "stxkxs.io:account": 000000000000
+        "stxkxs.io:region": us-west-2
+        "stxkxs.io:environment": prototype
+        "stxkxs.io:version": v1
+        "stxkxs.io:resource-type": ecr
+        "stxkxs.io:category": helm
+        "stxkxs.io:type": druid
+        "stxkxs.io:organization": stxkxs
+        "stxkxs.io:name": kernel
+        "stxkxs.io:alias": alt
+        "stxkxs.io:part-of": "stxkxs.io/v1/ecr/helm/druid"
+public:
+  region: us-east-1
+  images:
+    - name: "stxkxs.io/v1/docker/druid"
+      version: v1
+      scanOnPush: true
+      mutability: mutable
+      dockerfile: Dockerfile.druid
+      context: .
+      alias: 00000000
+      description: |
+        Extension of the Apache Druid container to include jars that assist AWS Service integrations
+      about: |
+        # About
+
+        + includes https://repo1.maven.org/maven2/software/amazon/msk/aws-msk-iam-auth/2.2.0/aws-msk-iam-auth-2.3.2-all.jar for AWS MSK Authentication
+      usage: |
+        # Usage
+
+        ```shell
+        docker pull --platform linux/amd64 public.ecr.aws/q9l5h9b2/stxkxs.io/v1/apache/druid:<tag>
+        ```
+      architectures: ["x86-64"]
+      operatingSystems: ["Linux"]
+      tags:
+        "stxkxs.io:account": 000000000000
+        "stxkxs.io:region": us-east-1
+        "stxkxs.io:environment": prototype
+        "stxkxs.io:version": v1
+        "stxkxs.io:resource-type": ecr
+        "stxkxs.io:category": docker
+        "stxkxs.io:type": stxkxs.io/v1/apache/druid
+        "stxkxs.io:organization": stxkxs
+        "stxkxs.io:name": kernel
+        "stxkxs.io:alias": alt
+        "stxkxs.io:part-of": "stxkxs.io/v1"
+  charts:
+    - name: "stxkxs.io/v1/helm/druid"
+      version: 0.1.0
+      scanOnPush: true
+      mutability: mutable
+      chart: $HOME/aws-eks-druid-infra/helm/chart/druid
+      alias: 00000000
+      description: |
+        Apache Druid EKS Helm Chart
+      about: |
+        # About
+
+        + includes AWS RDS Integration
+        + includes S3 Buckets for Index Logs, Deep Storage and Multi-Stage Queries
+        + includes configurations for Karpenter scaling
+        + includes Apache Druid extensions
+          - prometheus-emitter
+          - druid-basic-security
+          - druid-s3-extensions
+          - druid-aws-rds-extensions
+          - postgresql-metadata-storage
+          - druid-multi-stage-query
+          - druid-kafka-indexing-service
+          - druid-kubernetes-extensions
+          - druid-kubernetes-overlord-extensions
+        + includes AWS Secrets Manager integration
+      usage: |
+        # Usage
+
+        ```shell
+        aws ecr-public get-login-password --region %s | helm registry login --username AWS --password-stdin public.ecr.aws/q9l5h9b2
+        helm repo add aws-public oci://public.ecr.aws/q9l5h9b2/stxkxs.io/v1/helm/druid
+        helm pull oci://public.ecr.aws/q9l5h9b2/stxkxs.io/v1/helm/druid --version <chart-version>
+        ```
+      architectures: ["x86-64"]
+      operatingSystems: ["Linux"]
+      tags:
+        "stxkxs.io:account": 000000000000
+        "stxkxs.io:region": us-west-2
+        "stxkxs.io:environment": prototype
+        "stxkxs.io:version": v1
+        "stxkxs.io:resource-type": ecr
+        "stxkxs.io:category": helm
+        "stxkxs.io:type": druid
+        "stxkxs.io:organization": stxkxs
+        "stxkxs.io:name": kernel
+        "stxkxs.io:alias": alt
+        "stxkxs.io:part-of": "stxkxs.io/v1/ecr/helm/druid"
