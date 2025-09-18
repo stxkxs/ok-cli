@@ -24,8 +24,8 @@ github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.57.2 h1:TSNLZXt7ipIV+Q+GZ
 github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.57.2/go.mod h1:mSt0uBAxUj2dnagbjc7p+Jh68SSwgDTNzMKUjchDiOY=
 github.com/aws/aws-sdk-go-v2/service/codebuild v1.67.3 h1:ndr4GuUl/NrlBAz5gJ8Zyeb1Zn4iHYpJRWnjHLK7GRs=
 github.com/aws/aws-sdk-go-v2/service/codebuild v1.67.3/go.mod h1:Vr6PJ4LOxgkyhWPEwjYsyETCbGm7Q99M4UZ/nnJtEJY=
-github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.2 h1:2d0q0nu8LC5aeas0ZmsgjZHCiAfZZXTB9Y1iF9dpm0w=
-github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.2/go.mod h1:mvpFNLX9pwMKCZtwEipfMUbAdZs9RmHcpkUp+J58eXU=
+github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.4 h1:IDrhAstiKNG91mcFFQsAMcuimNxOUawoOOYUYCFGJz8=
+github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.4/go.mod h1:q6iPHDrwx+9RYDKoghNCP5g35n86VB+6d4E7nx4G1gg=
 github.com/aws/aws-sdk-go-v2/service/ecr v1.50.1 h1:lcwFjRx3C/hBxJzoWkD6DIG2jeB+mzLmFVBFVOadxxE=
 github.com/aws/aws-sdk-go-v2/service/ecr v1.50.1/go.mod h1:qt9OL5kXqWoSub4QAkOF74mS3M2zOTNxMODqgwEUjt8=
 github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.37.2 h1:EfatDVSMFxaS5TiR0C0zssQU1Nm+rGx3VbUGIH1y274=
