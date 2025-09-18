@@ -16,8 +16,8 @@ github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3 h1:bIqFDwgGXXN1Kpp99pDOdKMTTb5d
 github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3/go.mod h1:H5O/EsxDWyU+LP/V8i5sm8cxoZgc2fdNR9bxlOFrQTo=
 github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.7 h1:BszAktdUo2xlzmYHjWMq70DqJ7cROM8iBd3f6hrpuMQ=
 github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.7/go.mod h1:XJ1yHki/P7ZPuG4fd3f0Pg/dSGA2cTQBCLw82MH2H48=
-github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.11.4 h1:rCsX5uQG+TR71GJISV8vvAaWFk3S2MVW5zeYRiLAU7I=
-github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.11.4/go.mod h1:NL8MY5NFgNvl0mgFNb5IdM6noZK+TX4LfmF2CfIdPW4=
+github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.11.6 h1:J39E926fD+zbL9qBNPK235Zn+KarvEPOuTtCH/WNN8k=
+github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.11.6/go.mod h1:Qy7ki+Cj48OXfe7zIRSQ7IjXYMvTE/ddhnpR98VyyM4=
 github.com/aws/aws-sdk-go-v2/service/cloudformation v1.66.2 h1:NsxbnWtrrFysJ3bjBAaXshvGA4OLtdW/x8gHQ+eYdo0=
 github.com/aws/aws-sdk-go-v2/service/cloudformation v1.66.2/go.mod h1:eTAwEMBFx1uY9cnjh98c1V7GFqftJRb5X3wrUW04BTg=
 github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.57.2 h1:TSNLZXt7ipIV+Q+GZAQ8dUxYUDsMX2/Atrn/YuPF3zI=
