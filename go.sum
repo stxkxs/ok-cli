@@ -20,8 +20,8 @@ github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.11.6 h1:J39E926fD+zbL9qBN
 github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.11.6/go.mod h1:Qy7ki+Cj48OXfe7zIRSQ7IjXYMvTE/ddhnpR98VyyM4=
 github.com/aws/aws-sdk-go-v2/service/cloudformation v1.66.2 h1:NsxbnWtrrFysJ3bjBAaXshvGA4OLtdW/x8gHQ+eYdo0=
 github.com/aws/aws-sdk-go-v2/service/cloudformation v1.66.2/go.mod h1:eTAwEMBFx1uY9cnjh98c1V7GFqftJRb5X3wrUW04BTg=
-github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.57.2 h1:TSNLZXt7ipIV+Q+GZAQ8dUxYUDsMX2/Atrn/YuPF3zI=
-github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.57.2/go.mod h1:mSt0uBAxUj2dnagbjc7p+Jh68SSwgDTNzMKUjchDiOY=
+github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.58.2 h1:JPW6ND8muLsBwALrf/VXikyokUmGWNKZa88qZWwFGWA=
+github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.58.2/go.mod h1:3Dh12t3s/KrpEm7HNfg5RH+XWzi9LW2QI7velkc61ac=
 github.com/aws/aws-sdk-go-v2/service/codebuild v1.67.3 h1:ndr4GuUl/NrlBAz5gJ8Zyeb1Zn4iHYpJRWnjHLK7GRs=
 github.com/aws/aws-sdk-go-v2/service/codebuild v1.67.3/go.mod h1:Vr6PJ4LOxgkyhWPEwjYsyETCbGm7Q99M4UZ/nnJtEJY=
 github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.4 h1:IDrhAstiKNG91mcFFQsAMcuimNxOUawoOOYUYCFGJz8=
