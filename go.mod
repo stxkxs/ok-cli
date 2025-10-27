@@ -11,7 +11,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.58.2
 	github.com/aws/aws-sdk-go-v2/service/codebuild v1.67.5
 	github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.6
-	github.com/aws/aws-sdk-go-v2/service/ecr v1.50.5
+	github.com/aws/aws-sdk-go-v2/service/ecr v1.51.0
 	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.37.6
 	github.com/aws/aws-sdk-go-v2/service/iam v1.48.1
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.88.4
