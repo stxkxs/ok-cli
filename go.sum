@@ -28,8 +28,8 @@ github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.6 h1:Fy5Lp0
 github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.33.6/go.mod h1:WjmUookbSIF13EUgmIm3iJbsOR4ig0BZtPtLojlmiEo=
 github.com/aws/aws-sdk-go-v2/service/ecr v1.51.0 h1:X4qnbHjjwzCSB3CnbqCiAp1LPI9o300Wjyd4eEEnAjE=
 github.com/aws/aws-sdk-go-v2/service/ecr v1.51.0/go.mod h1:WPeTdw/R5dXpINO+eOenPdYxyxUkjYqbj50r8uBMLgk=
-github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.37.6 h1:pc4te9Px2oORmxWlJXaX/OkHQsdQ3RiPvuZU7525FZc=
-github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.37.6/go.mod h1:BeseuedjcZNw+lGyqDIbapD3hvvsEVkjkISUIQLzem4=
+github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.38.4 h1:0rqbFeBlrTHNEIdrcH9g1yW0QjBOaCrGcTQ6sLcsH9w=
+github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.38.4/go.mod h1:x7gU4CAyAz4BsM9hlRkhHiYw2GIr1QCmN45uwQw9l/E=
 github.com/aws/aws-sdk-go-v2/service/iam v1.48.1 h1:ggI11z0sgXmg6tNEBWFRXk0EBCW2IvETUQphWjbbN4Q=
 github.com/aws/aws-sdk-go-v2/service/iam v1.48.1/go.mod h1:QvuzFFqvuknv43XjhxdWTMHt1ESYlQPaLJtb6iBlD3M=
 github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.3 h1:x2Ibm/Af8Fi+BH+Hsn9TXGdT+hKbDd5XOTZxTMxDk7o=
