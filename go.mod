@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.31.20
 	github.com/aws/aws-sdk-go-v2/credentials v1.18.24
 	github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.12.5
-	github.com/aws/aws-sdk-go-v2/service/cloudformation v1.69.0
+	github.com/aws/aws-sdk-go-v2/service/cloudformation v1.71.0
 	github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.58.7
 	github.com/aws/aws-sdk-go-v2/service/codebuild v1.67.5
 	github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.34.5
