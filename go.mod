@@ -9,7 +9,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/bcmdataexports v1.12.5
 	github.com/aws/aws-sdk-go-v2/service/cloudformation v1.71.0
 	github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.58.7
-	github.com/aws/aws-sdk-go-v2/service/codebuild v1.67.5
+	github.com/aws/aws-sdk-go-v2/service/codebuild v1.68.6
 	github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.34.5
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.51.0
 	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.38.5
